@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:1d938ae9e81a299cc825f36ad786a7fba9e35c20ef9d8bda5117cb4b594e8a0d
+- digest: sha256:b80008cde66c2b12dbb1ebadeb8e2ee7119f30dbb2b282fd051f59ecb2d6518c
   name: quay.io/siamaksade/spring-petclinic:latest
   newName: image-registry.openshift-image-registry.svc:5000/cicd/spring-petclinic
